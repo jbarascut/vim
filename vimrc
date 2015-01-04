@@ -42,3 +42,12 @@ hi Cursorline ctermbg=darkgrey guibg=#771clc cterm=none
 
 " Détection automatique du type de fichier
 filetype on
+
+
+set t_Co=256
+" mkdir -p ~/.vim/colors
+" wget https://raw.githubusercontent.com/chriskempson/tomorrow-theme/master/vim/colors/Tomorrow-Night.vim -O
+" ~/.vim/colors/Tomorrow-Night.vim
+" vim ~/.vimrc
+colorscheme Tomorrow-Night
+
